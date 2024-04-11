@@ -2,28 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Document</title>
 </head>
 
-<body>
+<body id="index-page">
+	<section id="signup-section">
+		<h1>Login</h1>
+		<form method="post">
+			<label id="name-label" for="name">Name:</label>
+			<input type="text" id="name" name="name">
+			<!-- here i am getting the email for the login -->
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+			<!-- here i am getting the password for the login -->
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
 
-  <h1>login</h1>
+			<input id="submit" type="submit" value="Login">
 
 
-  <form id="loginForm" action="/login" method="get">
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password"><br><br>
-    <input type="submit" value="Login">
-  </form>
-
-  </form>
+			<a id="change-form">No account yet? Sign up here</a>
 
 
-  <script src="./main.js"></script>
+	</section>
+
+	<script src="./main.js"></script>
 </body>
 
 </html>

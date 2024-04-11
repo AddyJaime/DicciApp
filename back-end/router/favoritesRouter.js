@@ -1,4 +1,6 @@
 import { Router } from "express"
+import favoriteModel from "../models/favoriteModel.js"
+
 
 const router = Router()
 

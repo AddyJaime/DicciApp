@@ -32,3 +32,9 @@ async function fetchDataAndSaveToDB() {
 }
 
 fetchDataAndSaveToDB();
+
+
+// conctar registeer al front end 
+// hacer lo mismo con el login 
+// refrescar la pagina al final de la funcion despues que se cres en lpagina como se refresca la pagina 
+// funcion para conectar la api 
